@@ -32,7 +32,9 @@ function HomepageHeader() {
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout>
+    <Layout
+      title=''
+      description="a real-time auction microservice built with ASP.NET Core">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
