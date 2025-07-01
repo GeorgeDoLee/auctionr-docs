@@ -63,6 +63,16 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {
+          property: 'og:image', 
+          content: './static/img/logo.svg'
+        },
+        {
+          property: 'og:description',
+          content: "a real-time auction microservice built with ASP.NET Core"
+        }
+      ],  
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true,
