@@ -71,6 +71,10 @@ const config = {
         {
           property: 'og:description',
           content: "a real-time auction microservice built with ASP.NET Core"
+        },
+        {
+          property: 'description',
+          content: "a real-time auction microservice built with ASP.NET Core"
         }
       ],  
       colorMode: {
